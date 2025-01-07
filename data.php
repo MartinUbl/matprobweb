@@ -26,7 +26,7 @@ class Topic{
 
 $topics = [
     new Topic("Výrazy", "Sčítání, odčítání, násobení, vytýkání, vzorce", "var(--warning)"),
-    new Topic("Funkce", "Lineární, kvadratické, exponenciální,...", "var(--danger)"),
+    new Topic("Vlastnosti funkcí", "Základní vlastnosti funkcí - monotonie, obory, ...", "var(--danger)"),
     new Topic("Rovnice", "Lineární a kvadratické", "yellowgreen"),
     new Topic("Soustavy rovnic", "Soustavy lineárních rovnic", "midnightblue")
 ];
