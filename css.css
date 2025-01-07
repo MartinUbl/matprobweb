@@ -1,0 +1,154 @@
+/*
+autor: Dominik Vladar
+prace z predmetu KIV/OP
+Zapadoceska univerzita v Plzni, Fakulta aplikovanych ved
+*/
+
+/*-----------------------------------*/
+/*          OBECNE STYLY             */
+/*-----------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+  background: #333;
+}
+
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #EEE;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
+::selection {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*-----------------------------------*/
+/*              TAGY                 */
+/*-----------------------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(245, 245, 245);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  background: #DDD;
+  width: 100%;
+  padding: 10px;
+}
+
+
+input[type="number"] {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+
+/*-----------------------------------*/
+/*              TRIDY                */
+/*-----------------------------------*/
+
+.emphasize {
+  background: #e9ecef;
+  padding: 10px 0px;
+}
+
+.selectable {
+  margin-left: 40px;
+}
+
+.h5 {
+  padding-top: 30px;
+}
+
+.js-plotly-plot {
+  width: 100%;
+}
+
+.solution {
+  margin: 20px 20px 50px 0;
+}
+
+.selection_header {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  background: rgba(0, 0, 0, 0.05);
+  border: 5px solid rgba(0, 0, 0, 0.05);
+}
+
+.text-warning {
+  color: rgb(255, 136, 0) !important;
+  font-weight: bold !important;
+}
+
+.eq-container {
+  height: 100px;
+}
+
+body>.container {
+  flex: 1;
+}
+
+/*-----------------------------------*/
+/*                IDs                */
+/*-----------------------------------*/
+
+#header {
+  background: var(--primary);
+  font-size: 2em;
+  padding: 10px 0px 10px 10vw;
+  color: #EEE;
+  white-space: nowrap;
+}
+
+#home {
+  position: absolute;
+  right: 0;
+  height: calc(100% + 1px);
+  top: -1px;
+}
+
+#home i {
+  background: white;
+  height: 100%;
+  color: #333;
+  padding: 7px 1vw;
+  line-height: unset;
+}
+
+#difficulty {
+  width: 375px;
+  margin-left: 30px;
+}
+
+#code_header,
+#checks_header {
+  background: white;
+}
+
+#cookies_btn.btn-outline-dark:hover {
+  background: inherit !important;
+  color: var(--dark);
+}
